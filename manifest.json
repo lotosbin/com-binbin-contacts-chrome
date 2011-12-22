@@ -1,28 +1,8 @@
 {
-  "name": "Binbin Contacts",
-  "version": "1.0.0.1",
-  "description": "search contacts on current page",
- 
-  "permissions": [
-    "http://api.flickr.com/"
-  ],
-   
-  "background_page" : "background.html",
-  
- 
-  "content_scripts" : [
-    {
-      "matches" : [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "js" : ["./scripts/contentscript.js"],
-      "run_at" : "document_idle",
-      "all_frames" : false
-    }
-  ],
-  "icons" : {
-   
-  }
+  "name": "Search Contact In Google Contacts",
+  "description": "Search Contact In Google Contacts",
+  "version": "0.6",
+  "permissions": ["contextMenus"],
+  "background_page": "background.html",
+  "content_security_policy": "default-src 'self'"
 }
-
