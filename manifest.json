@@ -1,7 +1,7 @@
 {
   "name": "Search Contact In Google Contacts",
   "description": "Search Contact In Google Contacts",
-  "version": "0.6",
+  "version": "0.7",
   "permissions": ["contextMenus"],
   "background_page": "background.html",
   "content_security_policy": "default-src 'self'"
